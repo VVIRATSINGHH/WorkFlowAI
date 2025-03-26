@@ -24,7 +24,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set your credentials
-os.environ["GOOGLE_GEMINI_API_KEY"] = "IzaSyCF-w1GHLD_FLKaB1ZnKEyjg9Ob2I2YvA0"
+os.environ["GOOGLE_GEMINI_API_KEY"] = ""
 os.environ["OPENAI_API_KEY"] = ""
 os.environ["DATABASE_URL"] = "sqlite:///./test.db"  # Default to SQLite for simplicity
 
